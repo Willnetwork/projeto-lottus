@@ -43,3 +43,10 @@ iframe#tela {
     width: 234px;
     height: 412px;
 }
+
+section#profissionais img{
+    border-radius: 50%;
+    width: 50px;
+   
+    
+}
