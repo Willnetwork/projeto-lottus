@@ -8,18 +8,20 @@
 html,body{
     width: 100vw;
     height: 100vh;
-    background-color: palevioletred;
-}
-
-body{
-    background-image: url(../imagens/time-lottus.png);
+    background-image: url(../imagens/lotus.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
+
 main {
+    background-image: url(../imagens/time-lottus.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
     height: 100vh;
     position: relative;
 }
