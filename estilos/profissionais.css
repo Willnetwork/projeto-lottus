@@ -18,10 +18,10 @@ a{
     background-color: white;
     text-align: center;
     color: palevioletred;
-    padding: 20px;
+    padding: 15px;
     font-weight: bolder;
     text-decoration: none;
-    margin: -3px;
+    margin-top: -3px;
 }
 
 a:hover{
