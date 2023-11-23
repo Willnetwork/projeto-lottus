@@ -8,11 +8,7 @@
 html,body{
     width: 100vw;
     height: 100vh;
-    background-image: url(../imagens/lotus.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: palevioletred;
 }
 ::-webkit-scrollbar {
     width: 0px;
@@ -54,7 +50,12 @@ section#profissionais img{
     border-radius: 50%;
     width: 50px;
     margin: 10px;
-    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.676);
+}
+
+section#profissionais img:hover{
+    border: 2px solid purple;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
 }
 
 a{
