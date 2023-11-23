@@ -24,7 +24,7 @@ main {
     background-image: url(../imagens/time-lottus.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     height: 100vh;
     position: relative;
