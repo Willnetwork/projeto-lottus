@@ -22,8 +22,6 @@ main {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
-    position: relative;
 }
 
 section#telefone{
