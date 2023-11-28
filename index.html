@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lottus Neuropsicologia e Psicologia</title>
-    <link rel="shortcut icon" href="imagens/lottus.ico" type="image/x-icon">
-    
+    <link rel="shortcut icon" href="imagens/lottus.ico" type="image/x-icon"> 
     <link rel="stylesheet" href="estilos/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
     <main>
         <section id="telefone">
             <iframe src="tela-principal.html" name="tela" id="tela" frameborder="0"> Seu navegador não é compatível com este Iframe.</iframe>
-
         </section>
 
         <section id="profissionais">
             <a href="tela-principal.html" target="tela"> <img src="imagens/logo-home.jpg" alt="tela-principal"></a> 
 
-            <a href="lottus.html" target="tela">
-                <abbr title="Somos um time de Mulheres que trabalha em prol da saúde mental e cognitiva!"><img src="imagens/Logo-lottus-p.jpg" alt="Instagram Lottus"></abbr>
-            </a> <br>
-
+            <div id="lottus">
+                    <abbr title="Somos um time de Mulheres que trabalha em prol da saúde mental e cognitiva!"><img src="imagens/Logo-lottus-p.jpg" alt="Instagram Lottus"></abbr>
+            </div>
+            <div id="lottus-social">
+                <a href="lottus.html" target="tela">
+                    <img src="imagens/logo-instagram.jpg" alt="Instagram Lottus">
+                </a>
+                <br>
+                <a href="lottus2.html" target="tela">
+                    <img src="imagens/logo-whattsapp.jpg" alt="Whattsapp Lottus">
+                </a>
+            </div>  
             <a href="caroline-silveira.html" target="tela">
                 <abbr title="Psicóloga I CRP 07/21659 | Especialista em relacionamentos"><img src="imagens/logo-caroline.jpg" alt="Instagram Psicologa Caroline"></abbr>
             </a> <br> 
@@ -49,6 +56,13 @@
             <a href="sanny-azambuja.html" target="tela">
                 <img src="imagens/logo-sanny.jpg" alt="Instagram Psicologa Sanny Azambuja">
             </a>
+            <script>
+                $(document).ready(function(){
+                    $("#lottus").click(function() {
+                        $("#lottus-social").slideToggle("slow");
+                    });
+                });
+            </script>
         </section>
     </main>
 </body>
