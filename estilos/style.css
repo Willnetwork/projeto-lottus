@@ -57,10 +57,37 @@ section#profissionais img:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
 }
 
-div#lottus-social{
+section#lottus-social{
     display: none;
 }
 
+section#caroline-social{
+    display: none;
+}
+
+section#elisiane-social{
+    display: none;
+}
+
+section#hanna-social{
+    display: none;
+}
+
+section#natielly-social{
+    display: none;
+}
+
+section#pamela-social{
+    display: none;
+}
+
+section#rita-social{
+    display: none;
+}
+
+section#sanny-social{
+    display: none;
+}
 a{
     text-decoration: none;
 }
