@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="shortcut icon" href="../imagens/lottus.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/screen.css">
 </head>
 <body>
     <style> 
@@ -12,17 +13,33 @@
             margin: 0px;
             padding: 0px;
         }
-
+        
         body{
             width: 100vw;
             height: 100vh;
             background-color: palevioletred;
-            background-image: url(../imagens/tela-principal.jpeg);
+            background-image: url(../imagens/tela.PNG);
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
             background-attachment: fixed;
         }
+
+        
+        @media (max-width:760px)
+        {
+            body{
+                width: 100vw;
+                height: 100vh;
+                background-color: palevioletred;
+                background-image: url(../imagens/time-lottus.png);
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+        }
+
     </style>
 </body>
 </html>

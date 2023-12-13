@@ -8,7 +8,11 @@
 html,body{
     width: 100vw;
     height: 100vh;
-    background-color: palevioletred;
+    background-image: url(../imagens/lotus.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 ::-webkit-scrollbar {
     width: 0px;
@@ -16,33 +20,27 @@ html,body{
 }
 
 
-main {
-    background-image: url(../imagens/time-lottus.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 section#telefone{
-    background-image: url(../imagens/iphone-modelo-2.png);
+    background-image: url(../imagens/desktop-modelo-2.png);
     background-repeat: no-repeat;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 494px;
-    width: 246px;
+    left: 53%;
+    transform: translate(-50%, -55%);
+    height: 504px;
+    width: 688px;
 
 }
 
 iframe#tela {
     position: relative;
-    top: 61px;
-    left: 22px;
-    width: 208px;
-    height: 370px;
+    top: 29px;
+    left: 30px;
+    width: 637px;
+    height: 386px;
 }
+
 
 section#profissionais img{
     border-radius: 50%;
@@ -90,4 +88,97 @@ section#sanny-social{
 }
 a{
     text-decoration: none;
+}
+
+
+@media (max-width: 760px){
+    html,body{
+        width: 100vw;
+        height: 100vh;
+        background-color: palevioletred;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    
+    
+    main {
+        background-image: url(../imagens/time-lottus.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        position: relative;
+    }
+    
+    section#telefone{
+        background-image: url(../imagens/iphone-modelo-2.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 494px;
+        width: 246px;
+    
+    }
+    
+    iframe#tela {
+        position: relative;
+        top: 61px;
+        left: 22px;
+        width: 208px;
+        height: 370px;
+    }
+    
+    section#profissionais img{
+        border-radius: 50%;
+        width: 50px;
+        margin: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.676);
+        box-sizing: border-box;
+    }
+    
+    section#profissionais img:hover{
+        border: 2px solid purple;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    }
+    
+    section#lottus-social{
+        display: none;
+    }
+    
+    section#caroline-social{
+        display: none;
+    }
+    
+    section#elisiane-social{
+        display: none;
+    }
+    
+    section#hanna-social{
+        display: none;
+    }
+    
+    section#natielly-social{
+        display: none;
+    }
+    
+    section#pamela-social{
+        display: none;
+    }
+    
+    section#rita-social{
+        display: none;
+    }
+    
+    section#sanny-social{
+        display: none;
+    }
+    a{
+        text-decoration: none;
+    }
+
 }
